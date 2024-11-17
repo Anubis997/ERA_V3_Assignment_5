@@ -28,7 +28,7 @@ jobs:
         pytest test_model.py -v
         
     - name: Upload augmented samples
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: augmented-samples
         path: augmented_samples.png

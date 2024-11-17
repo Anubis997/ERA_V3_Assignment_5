@@ -1,6 +1,6 @@
 # MNIST CNN Classifier with CI/CD
 
-![ML Pipeline](https://github.com/{username}/{repository-name}/actions/workflows/ml-pipeline.yml/badge.svg)
+![ML Pipeline](https://github.com/Anubis997/ERA_V3_Assignment_5/actions/workflows/ml-pipeline.yml/badge.svg)
 
 This project implements a CNN classifier for the MNIST dataset with automated testing and CI/CD pipeline using GitHub Actions.
 
@@ -9,6 +9,7 @@ This project implements a CNN classifier for the MNIST dataset with automated te
 - `test_model.py`: Contains test cases for model validation
 - `.github/workflows/ml-pipeline.yml`: GitHub Actions workflow file
 - `.gitignore`: Specifies which files Git should ignore
+- `augmented_samples.png`: Visualization of augmented training samples
 
 ## Model Architecture
 - 2 Convolutional layers
@@ -22,4 +23,3 @@ This project implements a CNN classifier for the MNIST dataset with automated te
 - Python 3.8 or higher
 - pip (Python package manager)
 
-### Step 1: Clone the repository
